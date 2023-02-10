@@ -377,3 +377,14 @@
     height: 60px;
     border-radius: 0.75em;
 }
+#button {
+    position: absolute;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    top: 370px;
+    height: 50px;
+    width: 100px;
+    left: 33rem;
+    /* border: 1px solid red; */
+}
