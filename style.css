@@ -1,0 +1,379 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Delius+Unicase&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+.container .navbar {
+    position: sticky;
+    top: 1px;
+    background-color: #6F6AF7;
+    color: white;
+    display: flex;
+    height: 60px;
+    width: 97.6rem;
+    border: 1px solid rgb(20, 2, 2);
+    z-index: 2;
+}
+
+.container .navbar #dappr {
+    position: relative;
+    font-family: Delius Unicase;
+    font-weight: 700;
+    font-size: 35.43px;
+    top: 10px;
+    left: 30px;
+}
+
+.container .navbar #contents {
+    display: flex;
+    /* position: relative; */
+    font-family: 'DM Sans';
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    align-items: center;
+    width: 1000px;
+    gap: 125px;
+}
+
+.container .navbar .searchbar {
+    /* border: 0.5px solid blue; */
+    display: flex;
+    align-items: center;
+}
+
+.container .navbar .searchbar input {
+    display: flex;
+    height: 40px;
+    width: 240px;
+    border-radius: 20px;
+}
+
+.container .navbar .searchbar img {
+    display: flex;
+    /* position: absolute; */
+    /* left: 1px; */
+    /* padding: 200px; */
+}
+
+.container .navbar .Hamburger {
+    position: relative;
+    top: 11px;
+    left: -50.51px;
+}
+
+.container .navbar .Hamburger img {
+    position: relative;
+    left: 7.5rem;
+    top: 0.4em;
+    height: 25px;
+    width: 40px;
+}
+
+.twocards {
+    position: relative;
+    /* margin-bottom: 10px; */
+    height: 25rem;
+    width: 93.52rem;
+    /* border: 3px solid black; */
+}
+
+.twocards img {
+    position: relative;
+    top: 50px;
+    left: 170px;
+    height: 19.5rem;
+    width: 20.5rem;
+}
+
+.twocards .sometext {
+    position: relative;
+    left: 42.3rem;
+    bottom: 16.4rem;
+    border: 0.1px solid blue;
+    height: 300px;
+    width: 40rem;
+    background: #E5D8FF;
+    /* border: 6px solid #FFFFFF;
+    box-shadow: inset 3px 5px 27px rgba(0, 0, 0, 0.25);*/
+    border-radius: 20px;
+}
+
+.twocards .sometext p {
+    color: #6F7373;
+    font-family: 'Delius Unicase', cursive;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100px;
+}
+
+.AnswerCards {
+    position: relative;
+    height: 17.45rem;
+    width: 97.6rem;
+    /* border: 1px solid red; */
+}
+
+.AnswerCards .Qc,
+.Ta,
+.participated,
+.tp {
+    background-color: #929DFF;
+    font-family: 'Delius Unicase', cursive;
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    top: 60px;
+    left: 10rem;
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    letter-spacing: 0.09em;
+}
+
+.AnswerCards .Qc h4,
+.AnswerCards .Ta h4,
+.AnswerCards .participated h4,
+.AnswerCards .tp h4 {
+    height: 35px;
+}
+
+.AnswerCards .Qc p,
+.AnswerCards .Ta p,
+.AnswerCards .participated p,
+.AnswerCards .tp p {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.AnswerCards .Ta {
+    background-color: #734CF2;
+    position: relative;
+    top: -40px;
+    left: 30rem;
+    height: 100px;
+    width: 200px;
+}
+
+.AnswerCards .participated {
+    background-color: #D288FF;
+    position: relative;
+    top: -140px;
+    left: 50rem;
+    height: 100px;
+    width: 200px;
+}
+
+.AnswerCards .tp {
+    color: white;
+    background-color: #000000;
+    position: relative;
+    top: -240px;
+    left: 70rem;
+    height: 100px;
+    width: 200px;
+}
+
+.AnswerCards .contactme {
+    background-color: white;
+    border: 1px solid red;
+    display: flex;
+    position: sticky;
+    left: 80rem;
+    /* border: 1px solid red; */
+    border-radius: 2rem;
+    bottom: 100px;
+    height: 60px;
+    width: 60px;
+    z-index: 1;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid red; */
+    height: 30rem;
+    /* width: 100rem; */
+}
+
+.information .allinfo {
+    /* position: relative; */
+    height: 30rem;
+    width: 73.1rem;
+    background-color: #483EFF;
+    color: black;
+    border-radius: 0.3em;
+}
+
+.information .allinfo .infosmi {
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    font-style: normal;
+    background-color: #BCE0F6;
+    border: 2px solid rgba(17, 1, 1, 0.923);
+    border-radius: 0.7rem;
+    height: 100px;
+    width: 310.2px;
+    top: 2rem;
+    left: 3.1rem;
+    justify-content: center;
+}
+
+.information .allinfo .infosmi h2,
+.bookmark h2,
+.settings h2 {
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 35px;
+    font-weight: 600;
+}
+
+.information .allinfo .bookmark {
+    color: white;
+    position: relative;
+    border: 2.5px solid white;
+    border-radius: 0.7rem;
+    height: 100px;
+    width: 310.2px;
+    top: 5rem;
+    left: 3.1rem;
+}
+
+.information .allinfo .settings {
+    color: white;
+    position: relative;
+    border: 2.5px solid white;
+    border-radius: 0.7rem;
+    height: 100px;
+    width: 310.2px;
+    top: 8rem;
+    left: 3.1rem;
+}
+
+.information .allinfo .yourinfo {
+    background-color: white;
+    position: relative;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 0.8em;
+    height: 27.92rem;
+    width: 41.2rem;
+    bottom: 18.5rem;
+    left: 30rem;
+}
+
+.information .allinfo .yourinfo #yourinfo {
+    position: relative;
+    left: 5rem;
+    top: 2.1rem;
+    font-family: 'Inter'sans-serif;
+    font-style: normal;
+    letter-spacing: 1.8px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.yourinfo #name,
+#email,
+#phone,
+#marks {
+    position: absolute;
+    font-family: 'Inter'sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    left: 5.1rem;
+}
+
+.yourinfo #name,
+#wname {
+    top: 7rem;
+}
+
+.yourinfo #email {
+    top: 12.1rem;
+}
+
+.yourinfo #phone {
+    top: 17.4rem;
+}
+
+.yourinfo #marks {
+    top: 23rem;
+}
+
+.yourinfo #wname,
+#wemail,
+#wphone,
+#wmarks {
+    position: relative;
+    font-family: 'Inter'sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.yourinfo #wemail {
+    top: 12.1rem;
+    right: 7rem;
+}
+
+.yourinfo #wphone {
+    top: 17.56rem;
+    right: 27rem;
+}
+
+.yourinfo #wmarks {
+    top: 23rem;
+    right: 37rem;
+}
+
+.containerlogo {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    /* position: sticky; */
+    top: 8.5%;
+    bottom: 166.9vh;
+    height: 100vh;
+    width: 100px;
+    left: 90.2em;
+    /* border: 1px solid red; */
+}
+
+.containerlogo .logos {
+    position: sticky;
+    /* border: 1px solid blue; */
+    height: 200px;
+    width: 75px;
+    /* bottom: 100px; */
+    right: 15px;
+    top: 15rem;
+}
+
+.containerlogo .logos #whatsapp {
+    border: 1px solid black;
+    height: 60px;
+    border-radius: 0.75em;
+}
+
+.containerlogo .logos #facebook {
+    border: 1px solid black;
+    height: 60px;
+    border-radius: 0.75em;
+}
+
+.containerlogo .logos #twitter {
+    border: 1px solid black;
+    height: 60px;
+    border-radius: 0.75em;
+}
